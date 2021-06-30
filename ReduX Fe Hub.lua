@@ -45,8 +45,6 @@ Main.BorderColor3 = Color3.new(0.184314, 0.184314, 0.184314)
 Main.Position = UDim2.new(0.0942857116, 0, 0.143939391, 0)
 Main.Size = UDim2.new(0, 545, 0, 423)
 Main.Visible = false
-Main.Active = true
-Main.Draggable = true
 
 desing.Name = "desing"
 desing.Parent = Main
@@ -338,12 +336,10 @@ coroutine.wrap(RPHMORB_fake_script)()
 local function CIPCUG_fake_script() -- Main.draggablemain 
 	local script = Instance.new('LocalScript', Main)
 
-	local script = Instance.new('LocalScript', Main)
-	
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
 	local dragToggle = nil
-	local dragSpeed = 0.29
+	local dragSpeed = 0.25
 	local dragStart = nil
 	local startPos = nil
 	
@@ -364,6 +360,14 @@ local function CIPCUG_fake_script() -- Main.draggablemain
 					dragToggle = false
 				end
 			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
 		end
 	end)
 end
