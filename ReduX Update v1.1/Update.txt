@@ -1,3 +1,4 @@
 Fixed Fe dance menu Bug changed to Fe Animations Menu
 Removed Smile face and sad face because the script did not work well changed by script Accessory Orbit
 Added Script Server Admin and Fe pose menu
+Also added Fe Spider
