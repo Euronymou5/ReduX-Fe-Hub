@@ -1,7 +1,7 @@
 --[[
        ReduX Fe Hub
        Made by Euronymou5
-       Discord: Negro100pesos#0666
+       Discord: Negro100pesos#9999
        Version Hub: v1.0
        Algunos scripts necesitan hats para ejecutarse solo los scripts Shield,Smile and Sad Face requiren hats el Shield ya no esta a la venta y el sad face es gratis
        Lista de hats estan hasta abajo
