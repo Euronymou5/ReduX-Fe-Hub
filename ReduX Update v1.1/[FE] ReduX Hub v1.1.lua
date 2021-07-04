@@ -1,7 +1,7 @@
 --[[
        ReduX Fe Hub
        Made by Euronymou5
-       Discord: Negro100pesos#0666
+       Discord: Negro100pesos#9999
        Version Hub: v1.1
        El script Shield solo funciona con el escudo
        Lista de hats estan hasta abajo
