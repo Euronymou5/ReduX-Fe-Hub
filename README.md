@@ -4,7 +4,7 @@ ReduX Fe Hub For Roblox
 
 # Credits
 Hub Created By: Euronymou5
-Discord: Negro100pesos#1111
+Discord: Negro100pesos#4439
 Roblox Profile: Euronymou5
 
 # Version
